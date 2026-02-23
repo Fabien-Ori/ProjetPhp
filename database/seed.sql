@@ -6,9 +6,9 @@ USE php_exam_db;
 
 -- Cailloux tout simples, de tailles et formes différentes
 INSERT INTO `article` (`name`, `description`, `price`, `author_id`, `image_link`) VALUES
-('Galet de Batard', 'Tema La circonférience du Galet', 0.99, 1, 'uploads/art_699c572addd86.jpg'),
-('Gros caillou', 'Un gros caillou. Plus lourd que le petit. Idéal si vous aimez les choses qui pèsent un peu.', 2.50, 1, NULL),
-('Caillou rond', 'Un caillou rond. Enfin, rond-ish. La nature ne fait pas de parfaits. Très caillou.', 1.20, 1, NULL),
+('Galet de Batard', 'Tema La circonférience du Galet', 0.99, 1, 'uploads/Kayou (2).jpg'),
+('Caillou un peu rouge', 'Un caillou rouge. Pas très joli mais pas très laid non plus.', 2.50, 1,'uploads/Kayou (1).jpg'),
+('Gros Caillou Immonde', 'Un Bloc Immonde tah rembourser les archis.', 1.20, 1, 'uploads/Kayou (3).jpg'),
 ('Caillou plat', 'Plat. Genre galet. Vous pouvez le faire ricocher sur l\'eau si vous avez le bras. Ou le poser sur une étagère.', 1.50, 1, NULL),
 ('Caillou pointu', 'Attention aux doigts. C\'est pointu. En pierre. Un vrai caillou avec du caractère.', 1.80, 1, NULL),
 ('Très petit caillou', 'Minuscule. Presque un grain. Parfait pour les collectionneurs de cailloux minimalistes.', 0.50, 1, NULL),
