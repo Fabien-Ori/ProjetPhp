@@ -69,6 +69,8 @@ Suivez ces étapes dans l’ordre.
 12. En bas de la page, cliquez sur **« Exécuter »** (ou **« Go »**).
 13. Attendez le message du type « Import réussi » ou « X requêtes exécutées ».  
     La base contient maintenant les tables : `user`, `article`, `stock`, `cart`, `invoice`, etc.
+14. Ajoutez maintenant **`seed.sql`** pour ajouter les articles de bases du site. (!Important sinon 
+   vous vous retrouverez avec un site vide !!")
 
 ---
 
