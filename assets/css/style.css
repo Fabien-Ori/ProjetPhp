@@ -11,6 +11,7 @@
   --stone-700: #524d44;
   --stone-800: #46423b;
   --stone-900: #3d3a35;
+  --stone-950: #000000;
   --accent: #6b9080;
   --accent-hover: #5a7a6d;
   --danger: #c25b56;
@@ -147,6 +148,17 @@ body {
 .btn-sm {
   padding: 0.3rem 0.6rem;
   font-size: 0.85rem;
+}
+
+.page-account .btn-outline {
+  background: transparent;
+  color: var(--stone-950);
+  border-color: var(--stone-400);
+}
+
+.page-account .btn-outline:hover {
+  color: var(--stone-400);
+  border-color: var(--stone-300);
 }
 
 /* Forms */
