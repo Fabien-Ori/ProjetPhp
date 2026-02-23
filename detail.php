@@ -104,7 +104,7 @@ require_once __DIR__ . '/includes/header.php';
                 if ($is_author): ?>
                     <form method="post" action="<?= BASE ?>/edit.php" class="detail-edit-form">
                         <input type="hidden" name="article_id" value="<?= (int)$article['id'] ?>">
-                        <button type="submit" class="btn btn-outline">Modifier / Supprimer</button>
+                        <button type="submit" class="btn btn-manage">Modifier / Supprimer</button>
                     </form>
                 <?php endif; ?>
             <?php else: ?>

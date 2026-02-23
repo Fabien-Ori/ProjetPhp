@@ -150,13 +150,35 @@ body {
   font-size: 0.85rem;
 }
 
-.page-account .btn-outline {
+.btn-email {
   background: transparent;
   color: var(--stone-950);
   border-color: var(--stone-400);
 }
 
-.page-account .btn-outline:hover {
+.btn-email:hover {
+  color: var(--stone-400);
+  border-color: var(--stone-300);
+}
+
+.btn-password {
+  background: transparent;
+  color: var(--stone-950);
+  border-color: var(--stone-400);
+}
+
+.btn-password:hover {
+  color: var(--stone-400);
+  border-color: var(--stone-300);
+}
+
+.btn-manage {
+  background: transparent;
+  color: var(--stone-950);
+  border-color: var(--stone-400);
+}
+
+.btn-manage:hover {
   color: var(--stone-400);
   border-color: var(--stone-300);
 }
