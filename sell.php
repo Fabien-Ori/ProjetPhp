@@ -41,7 +41,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="form-page">
     <h1>Vendre un caillou</h1>
     <?php if ($error): ?><p class="message error"><?= htmlspecialchars($error) ?></p><?php endif; ?>
-    <form method="post" action="<?= BASE ?>/sell.php" class="form-card form-wide">
+    <form method="post" action="<?= BASE ?>/sell.php" class="form-card form-wide" enctype="multipart/form-data">
         <label>Nom du caillou</label>
         <input type="text" name="name" required value="<?= htmlspecialchars($_POST['name'] ?? '') ?>">
         <label>Description</label>
@@ -50,8 +50,8 @@ require_once __DIR__ . '/includes/header.php';
         <input type="text" name="price" required placeholder="0.00" value="<?= htmlspecialchars($_POST['price'] ?? '') ?>">
         <label>Quantité en stock</label>
         <input type="number" name="quantity" min="0" value="<?= (int)($_POST['quantity'] ?? 1) ?>">
-        <label>Lien de l’image (URL, optionnel)</label>
-        <input type="url" name="image_link" placeholder="https://..." value="<?= htmlspecialchars($_POST['image_link'] ?? '') ?>">
+        <label>Image du caillou (JPG, PNG, GIF, WebP - max 5 MB)</label>
+        <input type="file" name="image" accept="image/jpeg,image/png,image/gif,image/webp">
         <button type="submit" class="btn btn-primary">Vendre ce caillou</button>
     </form>
 </div>

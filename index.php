@@ -35,7 +35,13 @@ require_once __DIR__ . '/includes/header.php';
             <a href="<?= BASE ?>/detail.php?id=<?= (int)$a['id'] ?>" class="article-card">
                 <div class="article-card-img">
                     <?php if (!empty($a['image_link'])): ?>
-                        <img src="<?= htmlspecialchars($a['image_link']) ?>" alt="">
+                        <?php 
+                            $img_src = $a['image_link'];
+                            if (strpos($img_src, 'http') !== 0 && strpos($img_src, '/') !== 0) {
+                                $img_src = BASE . '/' . $img_src;
+                            }
+                        ?>
+                        <img src="<?= htmlspecialchars($img_src) ?>" alt="">
                     <?php else: ?>
                         <div class="article-card-placeholder">🪨</div>
                     <?php endif; ?>

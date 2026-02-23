@@ -68,7 +68,13 @@ require_once __DIR__ . '/includes/header.php';
     <div class="detail-layout">
         <div class="detail-media">
             <?php if (!empty($article['image_link'])): ?>
-                <img src="<?= htmlspecialchars($article['image_link']) ?>" alt="">
+                <?php 
+                    $img_src = $article['image_link'];
+                    if (strpos($img_src, 'http') !== 0 && strpos($img_src, '/') !== 0) {
+                        $img_src = BASE . '/' . $img_src;
+                    }
+                ?>
+                <img src="<?= htmlspecialchars($img_src) ?>" alt="">
             <?php else: ?>
                 <div class="detail-placeholder">🪨</div>
             <?php endif; ?>
