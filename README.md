@@ -131,7 +131,7 @@ Comme le site est dans **htdocs/ProjetPhp**, l’URL du site contient **/ProjetP
 2. **Ajouter du solde** : allez dans **Mon compte**, section « Ajouter au solde », entrez un montant (ex. 100) et validez.
 3. **Mettre en vente un caillou** : **Vendre** → remplir nom, description, prix, stock, éventuellement un lien d’image → valider.
 4. **Acheter** : sur la fiche d’un article, ajoutez au panier, puis **Panier** → **Passer la commande** → remplir l’adresse de facturation → confirmer.
-5. **Admin** : déconnectez-vous, connectez-vous avec **admin** / **password**. Le lien **Admin** apparaît dans le menu ; vous pouvez gérer tous les articles et utilisateurs.
+5. **Admin** : déconnectez-vous, connectez-vous avec **admin@stones.local** / **password**. Le lien **Admin** apparaît dans le menu ; vous pouvez gérer tous les articles et utilisateurs.
 
 ---
 
