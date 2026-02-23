@@ -199,6 +199,7 @@ ProjetPhp/
 ## Fichier SQL de la base de données
 
 Le fichier **`database/schema.sql`** permet de recréer la base et les tables.
+Le fichier **`database/seed.sql`** permet de d'ajouter des articles en ventes.
 
 ## Licence
 
