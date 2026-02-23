@@ -38,7 +38,7 @@ Suivez ces étapes dans l’ordre.
 4. Allez dans le dossier **htdocs** de XAMPP :  
    **`C:\xampp\htdocs`**
 5. **Collez** le dossier (Ctrl+V).  
-   Vous devez obtenir : **`C:\xampp\htdocs\ProjetPhp`**  
+   Vous devez obtenir : **`C:\xampp\htdocs\ProjetPhp`**  (VERIFIEZ BIEN QUE LE DOSSIER S'APPELLE "ProjetPhp")
    Avec à l’intérieur : `index.php`, `config`, `database`, `admin`, etc.
 
 > Si votre XAMPP est installé ailleurs (ex. `D:\xampp`), utilisez ce chemin à la place de `C:\xampp`.
