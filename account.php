@@ -123,7 +123,7 @@ if (isset($_GET['invoice'])) {
                 <input type="hidden" name="action" value="update_info">
                 <label>Nouvel email</label>
                 <input type="email" name="email" value="<?= htmlspecialchars($view_user['email']) ?>" required>
-                <button type="submit" class="btn btn-outline">Modifier l’email</button>
+                <button type="submit" class="btn btn-email">Modifier l’email</button>
             </form>
             <form method="post" class="form-inline">
                 <input type="hidden" name="action" value="update_password">
@@ -133,7 +133,7 @@ if (isset($_GET['invoice'])) {
                 <input type="password" name="new_password" required minlength="6">
                 <label>Confirmer</label>
                 <input type="password" name="new_password_confirm" required minlength="6">
-                <button type="submit" class="btn btn-outline">Changer le mot de passe</button>
+                <button type="submit" class="btn btn-password">Changer le mot de passe</button>
             </form>
             <form method="post" class="form-inline">
                 <input type="hidden" name="action" value="add_balance">
